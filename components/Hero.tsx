@@ -2,27 +2,21 @@ import Link from 'next/link'
 
 export default function Hero() {
   return (
-    <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-32 px-4">
-      <div className="max-w-6xl mx-auto">
-        <div className="max-w-3xl">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            Expert Tutoring in Software, AI, Math & SAT
+    <section className="bg-gradient-to-br from-white to-white text-black sm:pt-25 lg:pt-35 pb-15 px-4">
+      <div className="pt-[100px] sm:pt-0 px-4">
+        <div className="max-w-7xl mx-auto text-center">
+          <h1 className="text-7xl md:text-7xl font-semibold text-black mb-8">
+            Expert tutoring
           </h1>
-          <p className="text-xl md:text-2xl mb-8 text-blue-100">
+          <p className="text-xl text-gray-600 mb-8 max-w-1xl mx-auto">
             Personalized tutoring services in West Palm Beach to help you excel in technology and academics
           </p>
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link 
               href="/contact"
-              className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors text-center"
+              className="bg-blue-600 text-white px-8 py-4 rounded-md text-lg font-semibold bg-gradient-to-r from-blue-450 to-blue-500 hover:bg-gradient-to-bl from-blue-450 to-blue-500 focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-center me-2 mb-2"
             >
               Get Started
-            </Link>
-            <Link 
-              href="/blog"
-              className="bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-600 transition-colors text-center"
-            >
-              Read Blog
             </Link>
           </div>
         </div>

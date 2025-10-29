@@ -18,13 +18,13 @@ export default function BlogPage() {
   ]
 
   return (
-    <div className="max-w-4xl mx-auto py-16 px-4">
-      <h1 className="text-5xl font-bold mb-8">Blog</h1>
+    <div className="max-w-4xl mx-auto pt-25 lg:pt-40 px-4">
+      <h1 className="text-5xl font-bold mb-8 text-black">Blog</h1>
       <div className="space-y-8">
         {posts.map((post) => (
-          <article key={post.slug} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <article key={post.slug} className="p-6 rounded-lg border border-gray-200 shadow transition-all duration-200 hover:shadow-2xl">
             <Link href={`/blog/${post.slug}`}>
-              <h2 className="text-2xl font-bold mb-2 hover:text-blue-600">{post.title}</h2>
+              <h2 className="text-2xl text-black font-bold mb-2 hover:text-blue-600">{post.title}</h2>
               <p className="text-gray-600 mb-4">{post.excerpt}</p>
               <span className="text-sm text-gray-500">{post.date}</span>
             </Link>

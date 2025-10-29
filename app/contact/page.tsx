@@ -14,44 +14,44 @@ export default function ContactPage() {
     e.preventDefault()
     // Handle form submission (connect to your API route)
     console.log('Form submitted:', formData)
-    alert('Thank you! I will get back to you soon.')
+    alert('Thank you! We will get back to you soon.')
   }
 
   return (
-    <div className="max-w-2xl mx-auto py-16 px-4">
-      <h1 className="text-5xl font-bold mb-4">Contact Me</h1>
+    <div className="bg-white pt-35 lg:pt-35 max-w-2xl mx-auto py-16 px-4">
+      <h1 className="text-5xl text-black font-bold mb-4">Contact Me</h1>
       <p className="text-gray-600 mb-8">
         Interested in tutoring services? Send me a message and I'll get back to you within 24 hours.
       </p>
       
       <form onSubmit={handleSubmit} className="space-y-6">
         <div>
-          <label className="block text-sm font-medium mb-2">Name</label>
+          <label className="text-black block text-sm font-medium mb-2">Name</label>
           <input
             type="text"
             required
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+            className="text-black w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
             value={formData.name}
             onChange={(e) => setFormData({...formData, name: e.target.value})}
           />
         </div>
         
         <div>
-          <label className="block text-sm font-medium mb-2">Email</label>
+          <label className="text-black block text-sm font-medium mb-2">Email</label>
           <input
             type="email"
             required
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+            className="text-black w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
             value={formData.email}
             onChange={(e) => setFormData({...formData, email: e.target.value})}
           />
         </div>
         
         <div>
-          <label className="block text-sm font-medium mb-2">Subject</label>
+          <label className="text-black block text-sm font-medium mb-2">Subject</label>
           <select
             required
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+            className="text-black w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
             value={formData.subject}
             onChange={(e) => setFormData({...formData, subject: e.target.value})}
           >
@@ -65,11 +65,11 @@ export default function ContactPage() {
         </div>
         
         <div>
-          <label className="block text-sm font-medium mb-2">Message</label>
+          <label className="text-black block text-sm font-medium mb-2">Message</label>
           <textarea
             required
             rows={6}
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+            className="text-black w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
             value={formData.message}
             onChange={(e) => setFormData({...formData, message: e.target.value})}
           />

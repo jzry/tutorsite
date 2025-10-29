@@ -1,6 +1,7 @@
 import Hero from '@/components/Hero'
 import ServiceCard from '@/components/ServiceCard'
 import Link from 'next/link'
+import FAQ from '@/components/Faq'
 
 export default function Home() {
   const services = [
@@ -31,10 +32,10 @@ export default function Home() {
       <Hero />
       
       {/* Services Section */}
-      <section className="py-20 px-4 bg-gray-50">
+      <section className="py-20 px-4 bg-gray-100">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-4">Tutoring Services</h2>
-          <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+          <h2 className="text-4xl text-black font-bold text-center mb-4">Tutoring Services</h2>
+          <p className="text-center text-black mb-20 max-w-3xl mx-auto">
             Personalized one-on-one tutoring to help you achieve your academic and professional goals
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -42,6 +43,17 @@ export default function Home() {
               <ServiceCard key={index} {...service} />
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-4xl font-bold text-center mb-4 text-black">Frequently Asked Questions</h2>
+          <p className="text-center text-black mb-12">
+            Have questions? Find answers to common questions about tutoring services
+          </p>
+          <FAQ />
         </div>
       </section>
 

@@ -76,12 +76,12 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   }
 
   return (
-    <article className="max-w-3xl mx-auto py-16 px-4">
+    <article className="max-w-3xl mx-auto pt-35 lg:pt-35 py-16 px-4">
       <Link href="/blog" className="text-blue-600 hover:underline mb-8 inline-block">
         ← Back to Blog
       </Link>
       
-      <h1 className="text-5xl font-bold mb-4">{post.title}</h1>
+      <h1 className="text-black text-5xl font-bold mb-4">{post.title}</h1>
       <p className="text-gray-500 mb-8">{post.date}</p>
       
       <div className="prose prose-lg max-w-none">
