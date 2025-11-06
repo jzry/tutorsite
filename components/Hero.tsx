@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Hero() {
   return (
     <section className="bg-gradient-to-br from-white to-white text-black sm:pt-25 lg:pt-35 pb-15 px-4">
-      <div className="pt-[100px] sm:pt-0 px-4">
+      <div className="pt-[160px] pb-[60px] md:pt-[150px] md:pb-[150px] px-4">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-7xl md:text-7xl font-semibold text-black mb-8">
             Expert tutoring

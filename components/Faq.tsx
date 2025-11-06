@@ -9,7 +9,7 @@ const faqs = [
   },
   {
     question: "What subjects do you tutor?",
-    answer: "We specialize in Software Development (Python, JavaScript, web development), Artificial Intelligence (python machine learning, neural networks, open source libraries), Mathematics (algebra through calculus), SAT preparation, and Spanish. However, we also tutor English, Writing, Science, Social Studies, History, Biology, and Physics. We can tailor sessions to your specific needs."
+    answer: "We specialize in Software Development (Python, JavaScript, web development), Artificial Intelligence (python machine learning, neural networks, open source libraries), Mathematics (algebra through calculus), and Spanish. However, we also tutor English, Writing, Science, Social Studies, History, Biology, and Physics. We can tailor sessions to your specific needs."
   },
   {
     question: "Where are tutoring sessions held?",

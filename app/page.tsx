@@ -21,9 +21,9 @@ export default function Home() {
       icon: '📐'
     },
     {
-      title: 'SAT Preparation',
-      description: 'Comprehensive test prep to maximize your SAT scores.',
-      icon: '📚'
+      title: 'Spanish',
+      description: 'Helping you perfect and improve your spanish at any level.',
+      icon: '🗣'
     }
   ]
 
