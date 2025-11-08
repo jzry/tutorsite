@@ -1,9 +1,7 @@
 'use client'
-
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
-import logo from '../public/images/logo.png'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -13,7 +11,6 @@ export default function Navbar() {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20)
     }
-
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
@@ -34,10 +31,10 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <Image src={logo} alt="WPB Tutor Logo" width={50} height={50} />
-            <span className="text-2xl font-semibold text-black">
+            <Image src="/images/wpbtutor.png" alt="WPB Tutor Logo" width={150} height={30} />
+            {/* <span className="text-2xl font-semibold text-black">
               wpb tutor
-            </span>
+            </span> */}
           </Link>
 
           {/* Desktop Navigation */}

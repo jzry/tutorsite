@@ -2,9 +2,9 @@ import Link from 'next/link'
 
 export default function Hero() {
   return (
-    <section className="relative bg-gradient-to-br from-white to-white text-black sm:pt-25 lg:pt-35 pb-15 px-4 overflow-hidden">
+    <section className="relative bg-gradient-to-br from-white to-white text-black sm:pt-25 lg:pt-35 pb-10 px-4 overflow-hidden">
       {/* Background Images - Mobile Only */}
-      <div className="absolute inset-0 pointer-events-none md:hidden">
+      <div className="absolute inset-0 pointer-events-none lg:hidden">
         <img 
           src="/images/faces-mobile.png" 
           alt="floating faces with different expressions" 
@@ -13,7 +13,7 @@ export default function Hero() {
       </div>
       
       {/* Background Images - Desktop Only */}
-      <div className="absolute inset-0 pointer-events-none hidden md:block">
+      <div className="absolute inset-0 pointer-events-none hidden lg:block">
         {/* Left Side Faces */}
         <img 
           src="/images/faces-left.png" 
@@ -30,9 +30,9 @@ export default function Hero() {
       </div>
       
       {/* Hero Content */}
-      <div className="relative z-10 pt-[300px] pb-[10px] sm:pt-[150px] md:pb-[100px] px-4">
+      <div className="relative z-10 pt-[260px] pb-[0px] sm:pt-[150px] md:pt-[150px] lg:pb-[100px] px-4">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-5xl lg:text-7xl font-semibold text-black mb-8">
+          <h1 className="text-6xl md:text-7xl font-semibold text-black mb-8">
             <span className="relative inline-block">
               Expert <img src="/images/squiggle.png" alt="highlight" width="250" height="12" loading="lazy" className="absolute left-0 -bottom-2" />
             </span> tutoring
