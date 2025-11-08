@@ -32,12 +32,12 @@ export default function Hero() {
       {/* Hero Content */}
       <div className="relative z-10 pt-[260px] pb-[0px] sm:pt-[150px] md:pt-[150px] lg:pb-[100px] px-4">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-6xl md:text-7xl font-semibold text-black mb-8">
+          <h1 className="text-4xl lg:text-7xl font-semibold text-black mb-8">
             <span className="relative inline-block">
               Expert <img src="/images/squiggle.png" alt="highlight" width="250" height="12" loading="lazy" className="absolute left-0 -bottom-2" />
             </span> tutoring
           </h1>
-          <p className="text-xl font-semibold text-gray-700 mb-8 max-w-1xl mx-auto">
+          <p className="text-[18px] lg:text-xl font-semibold text-gray-700 mb-8 max-w-1xl mx-auto">
             Personalized tutoring services in West Palm Beach to help you excel in technology and academics
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
