@@ -19,9 +19,9 @@ export default function ContactPage() {
 
   return (
     <div className="bg-white pt-35 lg:pt-35 max-w-2xl mx-auto py-16 px-4">
-      <h1 className="text-5xl text-black font-bold mb-4">Contact Me</h1>
+      <h1 className="text-5xl text-black font-bold mb-4">Contact Us</h1>
       <p className="text-gray-600 mb-8">
-        Interested in tutoring services? Send me a message and I'll get back to you within 24 hours.
+        Interested in tutoring services? Send a message or call and we'll get back to you within 24 hours.
       </p>
       
       <form onSubmit={handleSubmit} className="space-y-6">
@@ -59,7 +59,7 @@ export default function ContactPage() {
             <option value="software">Software Development</option>
             <option value="ai">Artificial Intelligence</option>
             <option value="math">Mathematics</option>
-            <option value="sat">SAT Preparation</option>
+            <option value="spanish">Spanish</option>
             <option value="other">Other</option>
           </select>
         </div>

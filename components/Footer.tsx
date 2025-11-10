@@ -15,7 +15,7 @@ export default function Footer() {
               <li>Software Development</li>
               <li>Artificial Intelligence</li>
               <li>Mathematics</li>
-              <li>SAT Preparation</li>
+              <li>Spanish</li>
             </ul>
           </div>
           <div>

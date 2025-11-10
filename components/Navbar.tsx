@@ -18,6 +18,7 @@ export default function Navbar() {
   const navLinks = [
     { name: 'Home', href: '/' },
     { name: 'Blog', href: '/blog' },
+    { name: 'About', href: '/about' },
     { name: 'Contact', href: '/contact' },
   ]
 
@@ -38,12 +39,12 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-1.5">
+          <div className="hidden md:flex items-center space-x-1">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
                 href={link.href}
-                className={`font-semibold py-2 px-4 rounded transition-colors ${
+                className={`font-semibold py-[4px] px-[9px] rounded transition-colors ${
                   isScrolled
                     ? 'text-black hover:bg-gray-200'
                     : 'text-black hover:bg-gray-200'
@@ -54,7 +55,7 @@ export default function Navbar() {
             ))}
             <Link
               href="/login"
-              className="bg-gradient-to-t from-blue-700 to-blue-500 font-semibold text-white px-6 py-2 rounded-full font-large hover:bg-gradient-to-bl hover:from-blue-500 hover:to-blue-700"
+              className="bg-gradient-to-t from-blue-700 to-blue-500 font-semibold text-white px-5 py-[5px] rounded-full font-large hover:bg-gradient-to-bl hover:from-blue-500 hover:to-blue-700"
             >
               Login
             </Link>
