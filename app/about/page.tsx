@@ -9,10 +9,13 @@ export default function AboutPage() {
           <h1 className="text-5xl font-bold text-black mb-7">About Us</h1>
           <div className="space-y-7">
           <p className="text-lg text-gray-700 leading-relaxed text-left">
-            Hi, I'm the lead tutor at West Palm Beach Tutor. I’ve worked as a tutor supporting students from middle school through college, helping them strengthen their skills in reading, writing, math, computer science, and software development.
+            Hi, I'm the lead tutor at West Palm Beach Tutor. Check out <a className='font-semibold text-blue-500 hover:text-blue-800 hover:underline' href="https://www.linkedin.com/in/jerzydob/">my LinkedIn here</a>. I’ve worked as a tutor supporting students from middle school through college, helping them strengthen their skills in reading, writing, math, computer science, and software development.
           </p>
           <p className="text-lg text-gray-700 leading-relaxed text-left">
-            I grew up and lived in West Palm Beach for most of my life. I graduated with a Bachelor's degree in Computer Science from the University of Central Florida and worked at various tutoring centers in the West Palm Beach area before deciding to start up my own tutoring and instructional service.
+            I grew up and lived in West Palm Beach for most of my life. I hold a Bachelor's degree in Computer Science from the University of Central Florida and worked at various tutoring centers in the West Palm Beach area before deciding to start up my own tutoring and instructional service.
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed text-left">
+            Alongside teaching, I have years of experience with software development, including building websites and developing a variety of software products. For my senior design project at university I lead a team of computer science students in a 10 month project to build a computer vision machine learning model for a non-profit.
           </p>
           <p className="text-lg text-gray-700 leading-relaxed text-left">
             I'm passionate about helping people achieve their educational goals. Through hands-on experience, I’ve learned that each student learns differently, so every session is customized to their individual needs, goals, and learning style.

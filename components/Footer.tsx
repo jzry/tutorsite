@@ -20,8 +20,13 @@ export default function Footer() {
           </div>
           <div>
             <h3 className="text-xl font-bold mb-4">Contact</h3>
-            <p className="text-gray-400">
-              West Palm Beach, FL
+            <p className="text-gray-400">{" "}
+              <img
+                src="/images/blacknumber.png"
+                className="inline-block h-4 align-text-bottom"
+              />{" "}
+            <br></br>
+            West Palm Beach, FL
             </p>
           </div>
         </div>

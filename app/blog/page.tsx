@@ -18,7 +18,7 @@ export default function BlogPage() {
   ]
 
   return (
-    <div className="max-w-4xl mx-auto pt-25 lg:pt-40 px-4">
+    <div className="max-w-4xl mx-auto pt-30 pb-10 lg:pt-40 lg:pb-10 px-5">
       <h1 className="text-5xl font-bold mb-8 text-black">Blog</h1>
       <div className="space-y-8">
         {posts.map((post) => (

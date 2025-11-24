@@ -20,9 +20,16 @@ export default function ContactPage() {
   return (
     <div className="bg-white pt-35 lg:pt-35 max-w-2xl mx-auto py-16 px-4">
       <h1 className="text-5xl text-black font-bold mb-4">Contact Us</h1>
-      <p className="text-gray-600 mb-8">
-        Interested in tutoring services? Send a message or call and we'll get back to you within 24 hours.
-      </p>
+
+        <p className="text-gray-600 mb-8">
+          Interested in tutoring services? Send a message or call{" "}
+          <img
+              src="/images/whitenumber.png"
+              className="inline-block h-4 align-text-bottom"
+            />{" "}
+          and we'll get back to you within 24 hours.
+        </p>
+
       
       <form onSubmit={handleSubmit} className="space-y-6">
         <div>
