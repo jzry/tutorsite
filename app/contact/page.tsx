@@ -91,6 +91,7 @@ export default function ContactPage() {
             <option value="software">Software Development</option>
             <option value="ai">Artificial Intelligence</option>
             <option value="math">Mathematics</option>
+            <option value="computer science">Computer Science</option>
             <option value="spanish">Spanish</option>
             <option value="other">Other</option>
           </select>

@@ -33,7 +33,7 @@ export default function AboutPage() {
             strengthens skills, and helps individuals build powerful technical and academic skills.
           </p>
           <p className="text-lg text-gray-700 leading-relaxed">
-            We specialize in teaching software development, artificial intelligence, mathematics, and Spanish, 
+            We specialize in teaching software development, artificial intelligence, mathematics, computer science, and Spanish, 
             offering one-on-one or small group sessions tailored to each student's unique learning style and goals.
           </p>
           <p className="text-lg text-gray-700 leading-relaxed">

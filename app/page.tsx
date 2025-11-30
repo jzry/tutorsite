@@ -22,9 +22,9 @@ export default function Home() {
       icon: '/images/pi.png'
     },
     { 
-      title: 'Spanish', 
-      description: 'Helping you perfect and improve your spanish at any level.', 
-      icon: '/images/talk.png'
+      title: 'Computer Science', 
+      description: 'Learn the theoretical and practical fundamentals of algorithms, computation, and information.', 
+      icon: '/images/code.png'
     }
   ]
 
